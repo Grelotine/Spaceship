@@ -8,4 +8,5 @@ Un premier lot vise à obtenir les fonctionnalités principales suivantes :
 - Calculer une trajectoire
 - Soudoyer les martiens
 
-Ce projet avance avec une méthodologie Behaviour Driven Development. Il possède un dossier 'features' dans lequel les fonctionnalités sont  décrites en Gherkin.
+Ce projet avance avec une méthodologie Behaviour Driven Development.
+Il possède un dossier 'features' dans lequel les fonctionnalités sont  décrites en Gherkin.
