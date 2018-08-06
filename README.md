@@ -1,5 +1,7 @@
 # Spaceship
 
+-- Ce projet n'est qu'un repository test --
+
 Un projet de simulation de vaisseau spatial pour partir à la découverte de l'univers.
 
 Un premier lot vise à obtenir les fonctionnalités principales suivantes :
