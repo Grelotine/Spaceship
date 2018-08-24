@@ -1,5 +1,3 @@
-package org.spaceshipadventure.domain
-
 class Actionwords {
   def jappuieSurLeBoutonDallumage() {
   }
@@ -11,12 +9,6 @@ class Actionwords {
   }
 
   def leGenerateurSeteint() {
-  }
-
-  def leGenerateurEstEteint() {
-  }
-
-  def leGenerateurEstAllume() {
   }
 
   def ilResteDuCarburant() {
@@ -35,5 +27,11 @@ class Actionwords {
   }
 
   def laTrajectoireARespecterMestAffichee() {
+  }
+
+  def leGenerateurEstEteint() {
+  }
+
+  def leGenerateurEstAllume() {
   }
 }

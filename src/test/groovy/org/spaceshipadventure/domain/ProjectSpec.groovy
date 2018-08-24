@@ -1,5 +1,3 @@
-package org.spaceshipadventure.domain
-
 import spock.lang.*
 
 class ProjectSpec extends Specification {
@@ -9,6 +7,8 @@ class ProjectSpec extends Specification {
     // Tags: Lot_1
 
 
+    given:
+    actionwords.leGenerateurEstEteint()
     actionwords.ilResteDuCarburant()
     when:
     actionwords.jappuieSurLeBoutonDallumage()
@@ -17,6 +17,8 @@ class ProjectSpec extends Specification {
   }
   def "Extinction"() {
 
+    given:
+    actionwords.leGenerateurEstAllume()
     when:
     actionwords.jappuieSurLeBoutonDextinction()
     then:
@@ -26,6 +28,8 @@ class ProjectSpec extends Specification {
     // Tags: Lot_1
 
 
+    given:
+    actionwords.leGenerateurEstEteint()
     actionwords.ilNeRestePlusDeCarburant()
     when:
     actionwords.jappuieSurLeBoutonDallumage()
@@ -34,6 +38,8 @@ class ProjectSpec extends Specification {
   }
   def "Générer une trajectoire"() {
 
+    given:
+    actionwords.leGenerateurEstAllume()
     when:
     actionwords.jeSelectionneLaFonctionnaliteDeGenerationDeTrajectoire()
     actionwords.jeSelectionneUneDestination("| Destination |\n| Terre |\n| Mars |\n| Venus |\n| Lune |\n| Soleil |")

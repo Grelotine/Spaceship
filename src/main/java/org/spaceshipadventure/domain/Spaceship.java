@@ -32,4 +32,8 @@ public class Spaceship {
     public void ignition() {
         generateur.setOn(true);
     }
+
+    public void extinction() {
+        generateur.setOn(false);
+    }
 }

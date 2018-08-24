@@ -15,14 +15,6 @@
   uid: 2848c814-7920-4515-bd93-83695f7c14c2
   parameters: []
   body_hash: d41d8cd98f00b204e9800998ecf8427e
-- name: le générateur est éteint
-  uid: b70db00e-39c7-4075-b2b5-12923e8cca4e
-  parameters: []
-  body_hash: d41d8cd98f00b204e9800998ecf8427e
-- name: le générateur est allumé
-  uid: 4a62317b-053a-4b65-8f48-fa6de26d46cf
-  parameters: []
-  body_hash: d41d8cd98f00b204e9800998ecf8427e
 - name: il reste du carburant
   uid: f2a9c8c6-683c-4151-a887-67da302c9a37
   parameters: []
@@ -46,5 +38,13 @@
   body_hash: d41d8cd98f00b204e9800998ecf8427e
 - name: la trajectoire à respecter m'est affichée
   uid: ae33f939-a4d7-431f-b352-86f8201317df
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: le générateur est éteint
+  uid: bff06f60-2f00-437c-9a97-d3e93a9a6fda
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: le générateur est allumé
+  uid: de931c6d-bc3b-4fec-b0f2-c0f3c9a7e4b3
   parameters: []
   body_hash: d41d8cd98f00b204e9800998ecf8427e
