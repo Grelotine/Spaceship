@@ -1,6 +1,6 @@
-package org.spaceshipadventure.main;
+package org.spaceshipadventures.main;
 
-import org.spaceshipadventure.domain.Spaceship;
+import org.spaceshipadventures.domain.Spaceship;
 
 public class SpaceshipAdventure {
 

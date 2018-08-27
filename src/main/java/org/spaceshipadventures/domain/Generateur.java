@@ -1,4 +1,4 @@
-package org.spaceshipadventure.domain;
+package org.spaceshipadventures.domain;
 
 public class Generateur {
 
@@ -7,7 +7,6 @@ public class Generateur {
     public boolean isOn() {
         return isOn;
     }
-
     public void setOn(boolean on) {
         isOn = on;
     }

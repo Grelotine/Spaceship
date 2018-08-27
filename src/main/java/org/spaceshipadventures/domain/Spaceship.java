@@ -1,12 +1,14 @@
-package org.spaceshipadventure.domain;
+package org.spaceshipadventures.domain;
 
 public class Spaceship {
 
-    private Generateur generateur;
     private String nom;
+    private Generateur generateur;
+    private long carburant;
 
     public Spaceship() {
         generateur = new Generateur();
+        carburant = 100;
     }
 
     public Spaceship(String newNom) {
@@ -28,9 +30,15 @@ public class Spaceship {
         this.nom = nom;
     }
 
+    public long getCarburant() {
+        return carburant;
+    }
+    public void setCarburant(long carburant) {
+        this.carburant = carburant;
+    }
 
     public void ignition() {
-        generateur.setOn(true);
+        if(carburant > 0) generateur.setOn(true);
     }
 
     public void extinction() {
