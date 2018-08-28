@@ -1,5 +1,8 @@
 package org.spaceshipadventures;
 
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
 public class Actionwords {
 
     public void jappuieSurLeBoutonDallumage() {
@@ -7,7 +10,7 @@ public class Actionwords {
     }
 
     public void leGenerateurSallume() {
-
+        assertTrue(true);
     }
 
     public void ilResteDuCarburant() {
@@ -22,7 +25,23 @@ public class Actionwords {
 
     }
 
-    public void leGenerateurNeSallumePas() {
+    public void leGenerateurResteEteint() {
+        assertFalse(true);
+    }
 
+    public void jeSuisUnRole(String role) {
+
+    }
+
+    public void leGenerateurEstAllume() {
+
+    }
+
+    public void jappuieSurLeBoutonDextinction() {
+
+    }
+
+    public void leGenerateurSeteint() {
+        assertTrue(true);
     }
 }

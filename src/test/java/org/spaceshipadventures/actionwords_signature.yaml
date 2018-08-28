@@ -16,10 +16,27 @@
   parameters: []
   body_hash: d41d8cd98f00b204e9800998ecf8427e
 - name: il ne reste plus de carburant
-  uid: f5e2ca2e-a701-46b4-9df0-784c69004e16
+  uid: 51f76da8-accc-4abd-9663-c10c5df46326
   parameters: []
   body_hash: d41d8cd98f00b204e9800998ecf8427e
-- name: le générateur ne s'allume pas
-  uid: 4f57eae3-9e12-4664-81c9-c3dda6c1beb3
+- name: le générateur reste éteint
+  uid: 164c2c44-230f-4804-8fde-354052728cab
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: je suis un "role"
+  uid: d6f3069c-380c-4f6f-9ca9-a2c5a5305448
+  parameters:
+  - name: role
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: le générateur est allumé
+  uid: aca03b5f-6252-4c01-8e6f-4ef4f0bf9476
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: j'appuie sur le bouton d'extinction
+  uid: 570266b5-cd15-4384-a89c-045649c31897
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: le générateur s'éteint
+  uid: a68d8e52-6e16-4f5d-b529-e86abdd85ef6
   parameters: []
   body_hash: d41d8cd98f00b204e9800998ecf8427e

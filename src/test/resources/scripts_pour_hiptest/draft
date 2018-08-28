@@ -1,0 +1,13 @@
+--tests-only
+Uniquement les test sont mis à jour et écrasés.
+
+--show-ationwords-diff
+Compare les actionwords créés dans Hiptest avec les actionwords qui sont présents (pas forcément implémentés) dans le code
+
+--show-actionwords-created
+Génère le squelette des tests pour les actionwords qui ne sont pas présents dans le code
+(Nécéssite un copier/coller ?)
+
+--action-words-signature
+Met à jour la signature dans le yaml
+
